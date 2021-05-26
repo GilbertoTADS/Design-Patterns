@@ -9,6 +9,7 @@ export class MyDbClassic{
             MyDbClassic.instance = new MyDbClassic()
         return MyDbClassic.instance
     }
+
 }
 
 const db1 = MyDbClassic.getInstance()
